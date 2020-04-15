@@ -101,25 +101,15 @@ You'll now want to authorize NEAR shell on your NEAR account, which will allow N
 
 If you don't have a NEAR account yet, take a look at [how to create a NEAR account](/docs/local-setup/create-account).
 
-Type the command `near login` which should return a url:
+Type the command `near login`
 
-```bash
-Please navigate to this url and follow the instructions to log in:
-https://wallet.nearprotocol.com/login/?title=NEAR+Shell&public_key={publicKey}
-```
+This should should open your default web browser and navigate you to the NEAR-wallet interface. Please authorize your account in the NEAR-wallet.
 
-![alt-text](assets/image-shell.png)
+Once this is done, you can close the window and return back to your terminal. You should be automatically logged-in now. 
 
-From there enter in your terminal the same account ID that you authorized:
+If you did not get redirected to the wallet interface, please follow the instructions on how to log-into your wallet displayed in your terminal.
 
-`Please enter the accountId that you logged in with: <asdfasdf>`
-
-Once you have entered your account ID, it will display the following message:
-
-`Missing public key for <asdfasdf> in default`
-`Logged in with masternode24`
-
-This message is not an error, it just means that it will create a public key for you.
+![NEAR shell log-in](/docs/assets/NEARshelllogin.png)
 
 ## 3. Write the smart contract
 
