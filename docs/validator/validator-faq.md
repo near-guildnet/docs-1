@@ -11,7 +11,7 @@ We use validator as the name for nodes that are engaged in building and maintain
 ### How do I become a validator?
 
 You need an account with sufficient amount of funds.
-Follow the docs [here](/docs/validator/staking) to understand how to become a validator, and [here](/docs/local-setup/running-testnet) to run a node.
+Follow the docs [here](/docs/validator/staking) to understand how to become a validator, and [here](/docs/local-setup/running-testnet) to run a node. At this stage, all staking tests are run on *Betanet*, so configure your node accordingly.
 
 More specific steps:
 1. Create a new key pair that will be used for staking for given account, and load it with the funds you want to put at stake
@@ -56,7 +56,7 @@ Large validators will have to generate blocks signing across multiple shards, th
 
 ### How do I run a node?
 
-Follow [this tutorial.](local-setup/running-testnet.md)
+Follow [this tutorial.](local-setup/running-testnet.md). Also, get in touch with NEAR validators community on [Telegram](https://t.me/near_validators) and [Discord](https://discord.gg/ZMPr3VB) to know more about initiatives and current known issues.
 
 ### Do validators receive incentives for testing the protocol?
 
