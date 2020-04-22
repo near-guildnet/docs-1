@@ -36,7 +36,7 @@ At least 50 GB free disk
 
 **IMPORTANT: Make sure you have the latest version of NEAR Shell and Node Version; 10.x**
 
-If this is not the case, follow the setps below to set up your environment; don't worry this won't take long. To stake, make sure that you have
+If this is not the case, follow the steps below to set up your environment; don't worry this won't take long. To stake, make sure that you have
 
 * an account with tokens on **BetaNet**. If you have not set up an account yet, please navigate to the following page, set it up and come right back: [Create Account](../local-setup/create-account.md). Remember to use the [BetaNet wallet](https://wallet.betanet.nearprotocol.com)!
 * `near-shell`, our CLI tool, which which will require [node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm). You can check whether you have node.js and npm already installed by
@@ -114,7 +114,7 @@ Staking 50,000 NEAR should be enough on BetaNet.
 You should see a success message that looks something like:
 
 ```text
-Staking 50000 on thefutureisnear with public key = A4inyaard6yzt1HQL8u5BYdWhWQgCB87RbRRHKPepfrn.
+Staking 50000 on thefutureisnear.test with public key = A4inyaard6yzt1HQL8u5BYdWhWQgCB87RbRRHKPepfrn.
 ```
 
 ## Being chosen to become a validator
