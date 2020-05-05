@@ -54,6 +54,10 @@ If validator keys are changed _during an epoch in which the validator is staking
 
 For concrete examples of keys being used as identifiers, you can see a list of validators and active nodes on various NEAR networks here:
 
-- NEAR TestNet
-  - https://rpc.nearprotocol.com/status
-  - https://rpc.nearprotocol.com/network_info
+- NEAR TestNet (staking currently disabled)
+  - https://rpc.testnet.nearprotocol.com/status
+  - https://rpc.testnet.nearprotocol.com/network_info
+
+- NEAR BetaNet 
+  - https://rpc.betanet.nearprotocol.com/status
+  - https://rpc.betanet.nearprotocol.com/network_info

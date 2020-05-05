@@ -99,6 +99,7 @@
     ],
     "Staking": [
       "roles/validator/hardware",
+      "validator/maintenance",
       "validator/staking",
       "validator/keys",
       "validator/economics"

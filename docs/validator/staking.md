@@ -12,7 +12,7 @@ Wait until your node is fully synced before you send a staking transaction. An o
 
 Staking is disabled on *TestNet*, so we will be working on *BetaNet*. Therefore, you will have to set your NEAR Shell to BetaNet, by using the command `export NODE_ENV=betanet`, and use the BetaNet online services below:
 
-| ⛔️ TestNet  | ✅ BetaNet |
+| ⛔️ MainNet  | ✅ BetaNet |
 | :----: | :----: |
 | https://explorer.nearprotocol.com | https://explorer.betanet.nearprotocol.com |
 | https://wallet.nearprotocol.com | https://wallet.betanet.nearprotocol.com |
@@ -82,6 +82,13 @@ Make sure you copy this validator\_key as you will need it for the next step. Yo
 
 Awesome! Once you completed the previous steps, you are all set for staking.
 
+<blockquote class="warning">
+<strong>heads up</strong><br><br>
+
+If you are running your node on BetaNet, you must issue the command `export NODE_ENV=betanet` before doing the login bleow, otherwise your near-shell will be connected to another network (TestNet or MainNet).
+
+</blockquote>
+
 First let's authenticate near shell by running the command `near login`
 
 You will be asked to navigate to a url to authenticate your staking account.
@@ -149,3 +156,11 @@ If you would like to see how much a validator is staking, you can run the comman
 
 NEAR Protocol automatically re-stake your rewards, unless you decide to unlock the funds.
 Issue the command `near stake` again, with a lower value, and your funds will be unlocked within three epochs (~9 hours on BetaNet, ~36 hours on TestNet).
+
+## Troubleshooting
+
+### My node is stuck in "waiting for peers" with `0/0/40` and `0 B/s`
+You have two possible alternatives:
+1. 
+
+
